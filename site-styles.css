@@ -7,39 +7,29 @@ body {
   font-weight: 400;
 }
 
-nav {
+.navcontainer nav {
   background: #C29779;
   display: block;
-}
-
-.navcontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #C29779;
-  width: 100%
 }
 
 .navcontainer ul {
     display: flex;
     list-style-type: none;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #C29779;
+    width: 100%;
     margin: 0px;
     padding: 12px;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-  }
-
-li {
+.navcontainer li {
   margin: 2px;
   padding: 10px;
 }
 
-a {
+.navcontainer a {
   text-decoration: none;
   font-weight: bold;
   font-style:normal;
@@ -49,7 +39,7 @@ a {
   font-size: 18px;
 }
 
-a:hover {
+.navcontainer a:hover {
   color: #FFFFFF;
 }
 
