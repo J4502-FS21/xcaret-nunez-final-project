@@ -21,7 +21,7 @@ body {
     background-color: #C29779;
     width: 100%;
     margin: 0px;
-    padding: 12px;
+    padding: 10px;
 }
 
 .navcontainer li {
@@ -85,6 +85,7 @@ img {
   text-align: center;
   font-family: 'Lato', sans-serif;
   text-decoration: underline;
+  color: #000000;
 }
 
 .credit {
@@ -92,4 +93,36 @@ img {
   font-style: italic;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+
+.birdDefintion ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.birdterm li {
+  width: 100%;
+  font-size: 4rem;
+  font-style: bold;
+  color: #000000;
+  display: block;
+}
+
+#second-header {
+  font-family: 'Source Serif Pro', serif;
+  color: #000000;
+}
+
+.tip li {
+  font-family: font-family: 'Lato', sans-serif;
+  font-style: bold;
+  color: #000000
+}
+
+ol {
+  text-align: left;
+  line-height: 1.5;
 }
