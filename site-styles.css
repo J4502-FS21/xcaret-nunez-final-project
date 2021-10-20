@@ -46,13 +46,7 @@ body {
 #title {
   font-family: 'Source Serif Pro', serif;
   color: #FFFFFF;
-}
-
-#title {
   font-weight: 700;
-}
-
-#title {
   background: #365C30;
   margin: 0px;
   padding: 25px;
@@ -130,13 +124,24 @@ img {
   color: #000000;
 }
 
-.tip li {
-  font-family: font-family: 'Lato', sans-serif;
-  font-style: bold;
-  color: #000000
+.tip {
+  font-weight: bolder;
+  color: #000000;
+  font-size: 1.1em;
+  font-family: 'Source Serif Pro', serif;
 }
 
 ol {
   text-align: left;
   line-height: 1.5;
+}
+
+footer {
+  font-family: 'Source Serif Pro', serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  background: #365C30;
+  margin: 0px;
+  padding: 8px;
+  font-size: 1.125em;
 }
