@@ -146,3 +146,68 @@ footer {
   padding: 8px;
   font-size: 1.125em;
 }
+
+#birdpic1 {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#text1 {
+  align:right;
+  list-style-type: none;
+}
+
+#birdpic2 {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#text2 {
+  align:right;
+  list-style-type: none;
+}
+
+#birdpic3 {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#text3 {
+  align:right;
+  list-style-type: none;
+}
+
+#birdpic4 {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#text4 {
+  align:right;
+  list-style-type: none;
+}
+
+#birdpic5 {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#text5 {
+  align:right;
+  list-style-type: none;
+}
