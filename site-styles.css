@@ -133,6 +133,20 @@ p {
   font-family: 'Source Serif Pro', serif;
 }
 
+.link a {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style:normal;
+  text-transform: inherit;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.link a:hover {
+  color: #C29779;
+}
+
 ol {
   text-align: left;
   line-height: 1.5;
