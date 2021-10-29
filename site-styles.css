@@ -152,6 +152,14 @@ p {
   color: #C29779;
 }
 
+.link {
+  margin-block-end: 2.2em;
+}
+
+.space {
+  margin-block-end: .8em;
+}
+
 ol {
   text-align: left;
   line-height: 1.8;
@@ -201,6 +209,7 @@ footer {
 
 .pic-text {
 display:flex;
+margin-block-end: 2em;
 }
 
 .text-ul{
