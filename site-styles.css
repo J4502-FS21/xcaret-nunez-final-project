@@ -162,6 +162,13 @@ footer {
   font-size: 1.150em;
 }
 
+.foot p {
+  font-family: 'Source Serif Pro', serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.150em;
+}
+
 .birdpic {
   align:left;
   margin: 0 15px 0 0;
