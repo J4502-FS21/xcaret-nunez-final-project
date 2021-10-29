@@ -56,6 +56,8 @@ body {
 #intro-header {
   font-family: 'Source Serif Pro', serif;
   color: #000000;
+  font-size: 2em;
+  margin-block-end: 0em;
 }
 
 p {
@@ -70,7 +72,7 @@ p {
 }
 
 #east {
-  width: 950px;
+  width: 70%;
   height: auto;
 }
 
@@ -108,7 +110,7 @@ p {
 
 .defterm h3 {
   font-weight: bolder;
-  font-size: 1.35em;
+  font-size: 1.5em;
   font-family: 'Source Serif Pro', serif;
 }
 
@@ -124,6 +126,9 @@ p {
 #second-header {
   font-family: 'Source Serif Pro', serif;
   color: #000000;
+  margin-block-start: 1.5em;
+  margin-block-end: 1em;
+  font-size: 1.8em
 }
 
 .tip {
@@ -150,6 +155,8 @@ p {
 ol {
   text-align: left;
   line-height: 1.8;
+  margin-right: 2em;
+
 }
 
 footer {
@@ -162,12 +169,18 @@ footer {
   font-size: 1.150em;
 }
 
-.foot p {
+.foot a {
   font-family: 'Source Serif Pro', serif;
   color: #FFFFFF;
   font-weight: 700;
   font-size: 1.150em;
+  text-decoration: none;
 }
+
+.foot a:hover {
+  color: #000000;
+}
+
 
 .birdpic {
   align:left;
