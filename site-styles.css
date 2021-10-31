@@ -236,6 +236,15 @@ margin-block-end: 2em;
     font-size: 1em;
   }
 
+  #map {
+    width: 50%;
+    height: auto;
+  }
+
+  .mapcontainer{
+  margin-block-end: 2em;
+  margin-block-start: 2em;
+  }
 
   #menu_trigger {
     display: none;
