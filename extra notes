@@ -1,0 +1,75 @@
+<section>
+<div class="birdpic" id=birdpic1">
+<h2>1. Tufted-Titmouse</h2>
+  <div class="pic-text">
+    <div class="pic-caption">
+  <img src="titmouse.jpg" alt="Close up image of Tufted Titmouse sitting on a branch" />
+  <div class="credit">
+    <a href="https://www.flickr.com/photos/47604778@N00/4132610730">Photo</a> by <a href="https://www.flickr.com/photos/47604778@N00">Eric Bégin</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html">CC BY 2.0</a>
+</div>
+</div>
+
+<ul class="text-ul" id="text1"
+  <li>Markings</li>
+  <li>Size</li>
+  <li>Diet</li>
+  <li>Habitat</li>
+</ul>
+</div>
+</section>
+
+
+CSS
+.birdpic {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pic-text {
+class display:flex;
+}
+
+ORIGINAL
+<section>
+<div id="birdpic1" align="left">
+<h2>1. Tufted-Titmouse</h2>
+  <img src="titmouse.jpg" alt="Close up image of Tufted Titmouse sitting on a branch" />
+  <div class="credit">
+    <a href="https://www.flickr.com/photos/47604778@N00/4132610730">Photo</a> by <a href="https://www.flickr.com/photos/47604778@N00">Eric Bégin</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html">CC BY 2.0</a>
+</div>
+
+<ul id="text1">
+  <li>Markings</li>
+  <li>Size</li>
+  <li>Diet</li>
+  <li>Habitat</li>
+</ul>
+</section>
+
+
+ORIGINAL CSS
+
+#birdpic1 {
+  align:left;
+  margin: 0 15px 0 0;
+  width: 298px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#text1 {
+  align:right;
+  list-style-type: none;
+}
+
+
+
+.foot p {
+  font-family: 'Source Serif Pro', serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.150em;
+}
