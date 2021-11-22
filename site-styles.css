@@ -58,6 +58,8 @@ body {
   color: #000000;
   font-size: 2em;
   margin-block-end: 0em;
+  margin: 1rem auto;
+  max-width: 800px;
 }
 
 p {
@@ -69,11 +71,19 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 1em;
   margin-inline-end: 1em;
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+#decorate{
+  text-align: left;
 }
 
 #east {
   width: 70%;
   height: auto;
+  margin: 1rem auto;
+  max-width: 800px;
 }
 
 .credit a {
@@ -99,6 +109,8 @@ p {
   flex-direction: row;
   justify-content: unset;
   flex-wrap: wrap;
+  margin: 1rem auto;
+  max-width: 800px;
 }
 
 .defterm {
@@ -128,7 +140,9 @@ p {
   color: #000000;
   margin-block-start: 1.5em;
   margin-block-end: 1em;
-  font-size: 1.8em
+  font-size: 1.8em;
+  margin: 1rem auto;
+  max-width: 800px;
 }
 
 .tip {
@@ -164,6 +178,8 @@ ol {
   text-align: left;
   line-height: 1.8;
   margin-right: 2em;
+  margin: 1rem auto;
+  max-width: 900px;
 
 }
 
@@ -202,7 +218,7 @@ footer {
 .birdpic img {
   align:left;
   margin: 0 15px 0 0;
-  width: 298px;
+  width: 400px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -210,6 +226,8 @@ footer {
 .pic-text {
 display:flex;
 margin-block-end: 2em;
+margin: 1rem auto;
+max-width: 800px;
 }
 
 .text-ul{
@@ -220,6 +238,9 @@ margin-block-end: 2em;
 
 .label{
   text-align: justify;
+  margin: 1rem auto;
+  max-width: 800px;
+  font-size: 1.7em;
 }
 
 .defcontainer a:hover {
@@ -250,7 +271,10 @@ margin-block-end: 2em;
     display: none;
   }
 
-  @media (max-width: 850px) {
+
+
+
+/*@media (max-width: 850px) {
 
     li {
       width: 50%;
@@ -258,7 +282,7 @@ margin-block-end: 2em;
 
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
 
     ul {
       flex-direction: column;
@@ -268,6 +292,10 @@ margin-block-end: 2em;
       width: 100%;
     }
 
+}
+
+
+@media (max-width: 600px){
     #menu_trigger {
       display: block;
       position: absolute;
@@ -278,4 +306,48 @@ margin-block-end: 2em;
     #menu_nav {
       display: none;
     }
+  }*/
+
+@media (max-width: 800px){
+
+.pic-text{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   }
+
+.label{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.defcontainer{
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+  body{
+    padding: 0rem;
+  }
+
+#google-map{
+  height: 450px;
+  width: 100%;
+}
+
+}
+
+@media (max-width: 600px) {
+  #menu_trigger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #menu_nav {
+    display: none;
+  }
+}
