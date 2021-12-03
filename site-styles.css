@@ -273,6 +273,9 @@ max-width: 800px;
 
   #google-map{
     margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 2em;
+    width: 770px;
   }
 
   #menu_trigger {
