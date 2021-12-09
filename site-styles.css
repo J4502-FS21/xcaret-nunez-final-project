@@ -388,9 +388,13 @@ max-width: 800px;
 }
 
 .defcontainer{
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.defterm{
+  width: unset;
 }
 
 #google-map{
