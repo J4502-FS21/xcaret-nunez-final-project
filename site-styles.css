@@ -339,6 +339,10 @@ max-width: 800px;
   font-size: 1em;
 }
 
+#c-line {
+  margin-top: 0em;
+}
+
 /*@media (max-width: 850px) {
 
     li {
